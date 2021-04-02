@@ -1,3 +1,3 @@
 # laboratorio
 
-Proyectos de prueba de diferentes herramientas con propósito de estudio
+Proyectos de prueba de diferentes herramientas útiles en Java con propósito de estudio
