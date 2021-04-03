@@ -1,23 +1,24 @@
-package com.example.demo.domain;
+package com.example.demo.entity;
 
-import java.io.Serializable;
-
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Builder
 @Getter
 @Setter
-public class Employee implements Serializable {
-	
-	/**
-	 * 
-	 */
-	private static final long serialVersionUID = 1L;
+@AllArgsConstructor
+@NoArgsConstructor
+public class EmployeeEntity {
+
 	private Integer id;
+	
 	private String nombre;
+	
 	private Integer edad;
+	
 	private String rol;
 	
 }

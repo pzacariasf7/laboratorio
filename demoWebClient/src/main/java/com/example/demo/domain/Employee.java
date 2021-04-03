@@ -19,5 +19,15 @@ public class Employee implements Serializable {
 	private String nombre;
 	private Integer edad;
 	private String rol;
+	private String status;
+	
+	public EmployeeBuilder mutate() {
+		return Employee.builder()
+				.id(id)
+				.nombre(nombre)
+				.edad(edad)
+				.rol(rol)
+				.status(status);
+	}
 	
 }

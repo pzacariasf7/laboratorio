@@ -1,0 +1,10 @@
+server:
+  port: 8088
+logging:
+  level:
+    root: INFO
+    com.example.demo.dao.impl: DEBUG
+application:
+  properties:
+    url:
+      demoRestWithSpringDataR2DBC: http://localhost:8087
