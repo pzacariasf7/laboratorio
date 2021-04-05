@@ -1,6 +1,7 @@
 package com.example.demo.domain;
 
 import java.io.Serializable;
+import java.util.List;
 
 import lombok.Builder;
 import lombok.Getter;
@@ -19,6 +20,7 @@ public class Employee implements Serializable {
 	private String nombre;
 	private Integer edad;
 	private String rol;
+	private List<EmployeePadres> padres;
 	private String status;
 	
 	public EmployeeBuilder mutate() {
@@ -27,6 +29,7 @@ public class Employee implements Serializable {
 				.nombre(nombre)
 				.edad(edad)
 				.rol(rol)
+				.padres(padres)
 				.status(status);
 	}
 	

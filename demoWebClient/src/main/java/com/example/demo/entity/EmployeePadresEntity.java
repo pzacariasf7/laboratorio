@@ -1,7 +1,5 @@
 package com.example.demo.entity;
 
-import java.util.List;
-
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Getter;
@@ -13,16 +11,12 @@ import lombok.Setter;
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
-public class EmployeeEntity {
-
-	private Integer id;
+public class EmployeePadresEntity {
+	
+	private String dni;
 	
 	private String nombre;
-	
-	private Integer edad;
-	
-	private String rol;
-	
-	private List<EmployeePadresEntity> padres;
-	
+
+	private String parentesco;
+
 }

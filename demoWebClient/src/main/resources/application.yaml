@@ -4,6 +4,7 @@ logging:
   level:
     root: INFO
     com.example.demo.dao.impl: DEBUG
+    com.example.demo.controller: DEBUG
 application:
   properties:
     url:
